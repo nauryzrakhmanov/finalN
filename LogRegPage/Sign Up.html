@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="Sign Up.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+ </head>
+ <body>
+     
+
+
+ <div class="container">
+        <!--Data or Content-->
+        <div class="box-1">
+            <div class="content-holder">
+                <h2>Hello!</h2>
+                <p>Welcome to our Web Service!</p>  
+                <button onclick="window.open('../HomePage/index.html')"> Back to home</button>
+            </div>
+        </div>
+
+        
+        <!--Forms-->
+        <div class="box-2">
+            <div class="login-form-container">
+                <div class="login-form-container">
+            <form name="reg" onsubmit="return myValidation()" method="post" action="">
+                        <h1>Registration Form</h1>
+                        <br>
+                        <p class="input__text">Your email</p>
+                        <input class="input-field" id="email" type="text" name="email">
+                        <br><br>
+                        <p class="input__text">Your Name</p>
+                        <input class="input-field" id="name" type="text" name="name">
+                        <br><br>
+                        <p class="input__text" >Your password</p>
+                        <input class="input-field" id="pass" minlength="5" type="password" name="pass">
+                        <br><br>
+                        
+                        <button class="login-button" type="submit">Register</button>
+        </form>
+            </div>
+        
+
+
+        </div>
+    </div>
+</div>
+    <script src="Sign Up.js"></script>
+</body>
+</html>
+
